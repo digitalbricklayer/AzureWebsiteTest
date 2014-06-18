@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>WebJobsBuilder</id>
+    <version>0.1.3-beta</version>
+    <authors>Sayed Ibrahim Hashimi</authors>
+    <owners>Sayed Ibrahim Hashimi</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/ligershark/webjobsvs</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This NuGet package is used to help support WebJobs in Visual Studio Web Projects.</description>
+    <copyright>Copyright 2014 All Rights Reserved</copyright>
+    <tags>WebJobs</tags>
+  </metadata>
+</package>
