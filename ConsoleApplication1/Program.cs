@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading;
+﻿using Microsoft.Azure.Jobs;
 
 namespace ConsoleApplication1
 {
@@ -9,8 +8,8 @@ namespace ConsoleApplication1
         {
             while (true)
             {
-                Console.WriteLine("Hello, world!");
-                Thread.Sleep(1000);
+                var host = new JobHost();
+                host.RunAndBlock();
             }
         }
     }
