@@ -6,11 +6,8 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            while (true)
-            {
-                var host = new JobHost();
-                host.RunAndBlock();
-            }
+            var host = new JobHost();
+            host.RunAndBlock();
         }
     }
 }
